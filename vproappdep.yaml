@@ -18,7 +18,7 @@ spec:
         - name: vproapp
           image: mellyboy/vprofileapp:latest
           ports:
-            - name: vroapp-port
+            - name: vproapp-port
               containerPort: 8080
       initContainers:
         - name: init-mydb
